@@ -26,3 +26,6 @@ class UrlRepository:
             entry.increment()
             return entry.long_url
         return None
+
+    def get_all(self):
+        return list(self.urls.values())
