@@ -35,3 +35,6 @@ class UrlRepository:
             del self.urls[short]
             return True
         return False
+
+    def export_analytics(self):
+        self.exporter.export(self.urls.values())
