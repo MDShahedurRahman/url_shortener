@@ -14,3 +14,6 @@ class UrlView:
 
     def get_long_url(self):
         return input("Enter long URL: ").strip()
+
+    def get_short_url(self):
+        return input("Enter short code: ").strip()
