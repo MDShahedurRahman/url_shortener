@@ -19,3 +19,10 @@ class UrlRepository:
         short = self._generate_short_code()
         self.urls[short] = UrlEntry(short, long_url)
         return short
+
+    def resolve(self, short):
+        entry = self.urls.get(short)
+        if entry:
+            entry.increment()
+            return entry.long_url
+        return None
