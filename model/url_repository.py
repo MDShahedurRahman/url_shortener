@@ -38,3 +38,7 @@ class UrlRepository:
 
     def export_analytics(self):
         self.exporter.export(self.urls.values())
+
+    def save_data(self):
+        data = [e.to_dict() for e in self.urls.values()]
+        self.storage.save(data)
