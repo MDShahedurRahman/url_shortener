@@ -7,3 +7,10 @@ class UrlEntry:
 
     def increment(self):
         self.clicks += 1
+
+    def to_dict(self):
+        return {
+            "short": self.short,
+            "long_url": self.long_url,
+            "clicks": self.clicks
+        }
