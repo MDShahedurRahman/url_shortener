@@ -4,3 +4,6 @@ class UrlEntry:
         self.short = short
         self.long_url = long_url
         self.clicks = clicks
+
+    def increment(self):
+        self.clicks += 1
