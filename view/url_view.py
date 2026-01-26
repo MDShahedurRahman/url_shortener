@@ -11,3 +11,6 @@ class UrlView:
         print("7. Load Data")
         print("0. Exit")
         return input("Select option: ").strip()
+
+    def get_long_url(self):
+        return input("Enter long URL: ").strip()
