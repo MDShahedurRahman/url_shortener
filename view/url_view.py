@@ -25,3 +25,6 @@ class UrlView:
 
         for u in urls:
             print(f"{u.short} → {u.long_url} | clicks: {u.clicks}")
+
+    def show_message(self, msg):
+        print(msg)
