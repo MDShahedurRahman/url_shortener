@@ -14,3 +14,11 @@ class UrlEntry:
             "long_url": self.long_url,
             "clicks": self.clicks
         }
+
+    @staticmethod
+    def from_dict(data):
+        return UrlEntry(
+            data["short"],
+            data["long_url"],
+            data["clicks"]
+        )
