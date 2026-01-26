@@ -6,3 +6,8 @@ from storage.analytics_exporter import AnalyticsExporter
 
 
 class UrlRepository:
+
+    def __init__(self):
+        self.urls = {}
+        self.storage = JsonStorage()
+        self.exporter = AnalyticsExporter()
