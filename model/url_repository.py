@@ -42,3 +42,7 @@ class UrlRepository:
     def save_data(self):
         data = [e.to_dict() for e in self.urls.values()]
         self.storage.save(data)
+
+    def load_data(self):
+        data = self.storage.load()
+        self.urls = {d["short"]: UrlEntry.from_dict(d) for d in data}
