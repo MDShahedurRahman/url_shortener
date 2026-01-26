@@ -17,3 +17,11 @@ class UrlView:
 
     def get_short_url(self):
         return input("Enter short code: ").strip()
+
+    def display_urls(self, urls):
+        if not urls:
+            print("No URLs found.")
+            return
+
+        for u in urls:
+            print(f"{u.short} → {u.long_url} | clicks: {u.clicks}")
