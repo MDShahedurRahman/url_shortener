@@ -14,3 +14,8 @@ class UrlRepository:
 
     def _generate_short_code(self, length=6):
         return ''.join(random.choices(string.ascii_letters + string.digits, k=length))
+
+    def create_short_url(self, long_url):
+        short = self._generate_short_code()
+        self.urls[short] = UrlEntry(short, long_url)
+        return short
