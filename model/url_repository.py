@@ -29,3 +29,9 @@ class UrlRepository:
 
     def get_all(self):
         return list(self.urls.values())
+
+    def delete(self, short):
+        if short in self.urls:
+            del self.urls[short]
+            return True
+        return False
