@@ -111,3 +111,16 @@ MVC layers - One method per commit - Clear development progression
 -   MVC Architecture
 
 ------------------------------------------------------------------------
+
+## Future Improvements
+
+-   REST API version (FastAPI)
+-   SQLite database backend
+-   Redis caching
+-   Web frontend
+
+------------------------------------------------------------------------
+
+## License
+
+MIT License --- free to use and modify.
