@@ -19,3 +19,27 @@ history - MVC architecture practice - Interview preparation
 -   Delete URLs\
 -   Save & load data using JSON\
 -   Export analytics to CSV
+
+------------------------------------------------------------------------
+
+## Architecture (MVC)
+
+    url_shortener/
+    │
+    ├── main.py
+    │
+    ├── controller/
+    │   └── url_controller.py
+    │
+    ├── model/
+    │   ├── url_entry.py
+    │   └── url_repository.py
+    │
+    ├── view/
+    │   └── url_view.py
+    │
+    └── storage/
+        ├── json_storage.py
+        └── analytics_exporter.py
+
+------------------------------------------------------------------------
