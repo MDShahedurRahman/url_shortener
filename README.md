@@ -51,3 +51,20 @@ history - MVC architecture practice - Interview preparation
 -   **Controller:** Controls application flow and business logic
 
 ------------------------------------------------------------------------
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
+``` bash
+git clone https://github.com/your-username/url-shortener-cli.git
+cd url-shortener-cli
+```
+
+### 2. Run the Application
+
+``` bash
+python main.py
+```
+
+------------------------------------------------------------------------
