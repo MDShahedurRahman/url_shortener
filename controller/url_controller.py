@@ -36,3 +36,11 @@ class UrlController:
         long_url = self.view.get_long_url()
         short = self.repo.create_short_url(long_url)
         self.view.show_message(f"Short URL created: {short}")
+
+    def resolve_url(self):
+        short = self.view.get_short_url()
+        long_url = self.repo.resolve(short)
+        if long_url:
+            self.view.show_message(f"Redirects to: {long_url}")
+        else:
+            self.view.show_message("Short URL not found")
