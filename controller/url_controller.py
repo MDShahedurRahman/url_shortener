@@ -63,3 +63,7 @@ class UrlController:
     def save_data(self):
         self.repo.save_data()
         self.view.show_message("Data saved")
+
+    def load_data(self):
+        self.repo.load_data()
+        self.view.show_message("Data loaded")
