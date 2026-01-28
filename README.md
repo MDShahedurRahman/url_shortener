@@ -43,3 +43,11 @@ history - MVC architecture practice - Interview preparation
         └── analytics_exporter.py
 
 ------------------------------------------------------------------------
+
+## How It Works
+
+-   **Model:** Stores and manages URL mappings and click analytics\
+-   **View:** Handles CLI input and output\
+-   **Controller:** Controls application flow and business logic
+
+------------------------------------------------------------------------
