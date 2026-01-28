@@ -95,3 +95,19 @@ python main.py
 -   `analytics.csv` → Click analytics export
 
 ------------------------------------------------------------------------
+
+## Recommended Git Commit Strategy
+
+This project is structured for **40 clean Git commits**, following: -
+MVC layers - One method per commit - Clear development progression
+
+------------------------------------------------------------------------
+
+## Technologies Used
+
+-   Python 3.x
+-   JSON
+-   CSV
+-   MVC Architecture
+
+------------------------------------------------------------------------
