@@ -31,3 +31,8 @@ class UrlController:
                 break
             else:
                 print("Invalid option")
+
+    def create_short_url(self):
+        long_url = self.view.get_long_url()
+        short = self.repo.create_short_url(long_url)
+        self.view.show_message(f"Short URL created: {short}")
