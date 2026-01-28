@@ -44,3 +44,7 @@ class UrlController:
             self.view.show_message(f"Redirects to: {long_url}")
         else:
             self.view.show_message("Short URL not found")
+
+    def show_all_urls(self):
+        urls = self.repo.get_all()
+        self.view.display_urls(urls)
