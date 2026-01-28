@@ -81,3 +81,17 @@ python main.py
     0. Exit
 
 ------------------------------------------------------------------------
+
+## Example Output
+
+    Short URL created: Ab3xK9
+    Redirects to: https://openai.com
+
+------------------------------------------------------------------------
+
+## Files Generated
+
+-   `urls.json` → Persistent URL storage\
+-   `analytics.csv` → Click analytics export
+
+------------------------------------------------------------------------
