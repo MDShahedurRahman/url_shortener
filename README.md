@@ -68,3 +68,16 @@ python main.py
 ```
 
 ------------------------------------------------------------------------
+
+## Sample Usage
+
+    1. Create Short URL
+    2. Resolve Short URL
+    3. Show All URLs
+    4. Delete URL
+    5. Export Analytics
+    6. Save Data
+    7. Load Data
+    0. Exit
+
+------------------------------------------------------------------------
