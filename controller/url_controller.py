@@ -55,3 +55,7 @@ class UrlController:
             self.view.show_message("URL deleted")
         else:
             self.view.show_message("Short URL not found")
+
+    def export_analytics(self):
+        self.repo.export_analytics()
+        self.view.show_message("Analytics exported")
