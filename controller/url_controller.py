@@ -59,3 +59,7 @@ class UrlController:
     def export_analytics(self):
         self.repo.export_analytics()
         self.view.show_message("Analytics exported")
+
+    def save_data(self):
+        self.repo.save_data()
+        self.view.show_message("Data saved")
